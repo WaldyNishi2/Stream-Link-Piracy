@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '23292000'))
 API_HASH = environ.get('API_HASH', 'be15e99b531e98b996bd4518fffe162d')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6331938254:AAEmmVQ9yL4ZgecWGdDQEK9iDoxEF6O-M2A")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6075536616:AAHhCHPr5fmqhCdxVK2CUEciOxzMi7gFUs8")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -32,7 +32,8 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '1240066432').split()]
-auth_channel = environ.get('AUTH_CHANNEL')
+auth_channel = environ.get('AUTH_CHANNEL','-1001961678235')
+auth_grp = environ.get('AUTH_GROUP')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -44,9 +45,9 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Harsha")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Harsha_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://daaaavudaaaa_info1:daaaavudaaaa_info1@cluster0.ookasqc.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "csnew")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #other
 VERIFY = bool(environ.get('VERIFY', False))
@@ -64,7 +65,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/CS_Files')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/cstutorialvideo/12')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001904536540'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001933118115'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'CSAdmin69_bot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
@@ -89,13 +90,13 @@ NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
     ON_HEROKU = True
-    APP_NAME = environ.get('APP_NAME', 'https://harshaonlinewatch-4d81abbb5767.herokuapp.com')
+    APP_NAME = environ.get('APP_NAME', 'https://harshaonlinewatch-fa3bf70cfd6b.herokuapp.com')
 else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "https://harshaonlinewatch-4d81abbb5767.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://harshaonlinewatch-4d81abbb5767.herokuapp.com/".format(FQDN, PORT)
+URL = "https://harshaonlinewatch-fa3bf70cfd6b.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "https://harshaonlinewatch-fa3bf70cfd6b.herokuapp.com/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
@@ -110,9 +111,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://harshaonlinewatch-4d81abbb5767.herokuapp.com/".format(FQDN)
+    URL = "https://harshaonlinewatch-fa3bf70cfd6b.herokuapp.com/".format(FQDN)
 else:
-    URL = "https://harshaonlinewatch-4d81abbb5767.herokuapp.com/".format(FQDN)
+    URL = "https://harshaonlinewatch-fa3bf70cfd6b.herokuapp.com/".format(FQDN)
 
 LANGUAGES = ["malayalam", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan"]
 
