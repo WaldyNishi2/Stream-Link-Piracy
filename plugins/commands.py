@@ -25,8 +25,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 ​🇲​​🇦​​🇮​​🇳​ ​🇨​​🇭​​🇦​​🇳​​🇳​​🇪​​🇱​​ 💥', url='https://t.me/waldy_Writings'),
-            InlineKeyboardButton('🔎 ​​🇷​​🇪​​🇶​​🇺​​🇪​​🇸​​🇹​ ​🇺​​🇷​ ​🇲​​🇴​​🇻​​🇮​​🇪 ​🔍', url='https://t.me/waldywritings_Bot')
+            InlineKeyboardButton('💥 ​Main Channel​​ 💥', url='https://t.me/waldy_Writings'),
+            InlineKeyboardButton('🔎 ​​Request Ur Movie ​🔍', url='https://t.me/waldywritings_Bot')
             ],[
             InlineKeyboardButton(' 💌 🇨​​🇴​​🇳​​🇹​​🇦​​🇨​​🇹​ 💌 ', url="https://t.me/WaldyWritings_Bot")
                   ]]
@@ -45,8 +45,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 ​🇲​​🇦​​🇮​​🇳​ ​🇨​​🇭​​🇦​​🇳​​🇳​​🇪​​🇱​​ 💥', url='https://t.me/waldy_Writings'),
-            InlineKeyboardButton('🔎 ​​🇷​​🇪​​🇶​​🇺​​🇪​​🇸​​🇹​ ​🇺​​🇷​ ​🇲​​🇴​​🇻​​🇮​​🇪 ​🔍', url='https://t.me/waldywritings_Bot')
+            InlineKeyboardButton('💥 ​Main Channel​​ 💥', url='https://t.me/waldy_Writings'),
+            InlineKeyboardButton('🔎 ​​Request Ur Movie ​🔍', url='https://t.me/waldywritings_Bot')
             ],[
             InlineKeyboardButton(' 💌 🇨​​🇴​​🇳​​🇹​​🇦​​🇨​​🇹​ 💌 ', url="https://t.me/WaldyWritings_Bot")
                   ]]
@@ -94,8 +94,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 ​🇲​​🇦​​🇮​​🇳​ ​🇨​​🇭​​🇦​​🇳​​🇳​​🇪​​🇱​​ 💥', url='https://t.me/waldy_Writings'),
-            InlineKeyboardButton('🔎 ​​🇷​​🇪​​🇶​​🇺​​🇪​​🇸​​🇹​ ​🇺​​🇷​ ​🇲​​🇴​​🇻​​🇮​​🇪 ​🔍', url='https://t.me/waldywritings_Bot')
+            InlineKeyboardButton('💥 ​Main Channel​​ 💥', url='https://t.me/waldy_Writings'),
+            InlineKeyboardButton('🔎 ​​Request Ur Movie ​🔍', url='https://t.me/waldywritings_Bot')
             ],[
             InlineKeyboardButton(' 💌 🇨​​🇴​​🇳​​🇹​​🇦​​🇨​​🇹​ 💌 ', url="https://t.me/WaldyWritings_Bot")
                   ]]
