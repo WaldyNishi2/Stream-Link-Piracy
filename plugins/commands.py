@@ -51,7 +51,7 @@ async def start(client, message):
             InlineKeyboardButton(' 💌 Contact 💌 ', url="https://t.me/WaldyWritings_Bot")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAECQKVlMLuWhk3z_OYKOxM0aQFjy56HewACdQsAAp5cUVRHU1m4LfBzZx4E") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAECUuhlUgO9Z_kEsTy6g7Oq14zXNw4g6AACjQwAAl5GkFaXEXtM10k7YR4E") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
