@@ -1,27 +1,21 @@
 class script(object):
-    START_TXT = """<b>HELLO {}
-    
-ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ Movie Search  ʙᴏᴛ
-i Have Over 5 Lakh + Movie Files But Not Theatre Prints So Dont Search Theatre Prints 😉
-
-ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/CSAdmin69_bot">HARSHA</a></b> 😏</b>"""
-
-    
+    START_TXT = """
+    <b>👋💙 𝙷𝙴𝙻𝙻𝙾 𝙼𝙰𝚆𝙰\n\nMʏ Nᴀᴍᴇ Iꜱ 𝚆𝙰𝙻𝙳𝚈 𝚆𝚁𝙸𝚃𝙸𝙽𝙶𝚂 𝚂𝙴𝙰𝚁𝙲𝙷 𝙱𝙾𝚃,\nI Cᴀɴ Pʀᴏᴠɪᴅᴇ HD Mᴏᴠɪᴇꜱ & Oᴛᴛ Rᴇʟᴇᴀꜱᴇᴅ Mᴏᴠɪᴇꜱ Hᴇʀᴇ... Jᴜꜱᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ Oʀ Jᴜꜱᴛ Aꜱᴋ Mᴏᴠɪᴇ Hᴇʀᴇ...\n\nIꜰ Yᴏᴜ Wᴀɴᴛ Pɪʀᴀᴄʏ Mᴏᴠɪᴇꜱ, Tʜᴇɴ Aꜱᴋ Hᴇʀᴇ @Waldy_Piracy_Search_Bot...\n\nBᴏᴛ Mᴀᴅᴇ Bʏ @Waldy_Writings 💙🙇‍♂️</b>"""    
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>
  🤖 ᴍʏ ɴᴀᴍᴇ : {}
- 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/CSAdmin69_bot'>HARSHA</a>
+ 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Waldy_Writings'>​🇼​​🇦​​🇱​​🇩​​🇾​</a>
  📚 ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
  📝 ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
  ♻️ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
- 📡 ʜᴏsᴛᴇᴅ ᴏɴ  : <a href='https://www.heroku.com/'>Heroku</a>
+ 📡 ʜᴏsᴛᴇᴅ ᴏɴ  : <a href='https://t.me/Waldy_TXT/3'>C​​🇱​​🇮​​🇨​​🇰​ ​H​​​🇪🇷​​🇪​</a>
  🥶 ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ3.0 [sᴛᴀʙʟᴇ​]</b>"""
 
     SOURCE_TXT = """
 <b>Tʜɪꜱ Bᴏᴛ Iꜱ Nᴏᴛ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
-ꜱᴏᴜʀᴄᴇ : <a href='https://t.me/CSAdmin69_bot'>sᴏᴜʀᴄᴇ ʟɪɴᴋ</a></b> 🙃</b>"""
+ꜱᴏᴜʀᴄᴇ : <a href='https://t.me/Waldy_Writings'>sᴏᴜʀᴄᴇ ʟɪɴᴋ</a></b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -104,7 +98,8 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
 ★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code></b>"""
+★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
+★ ​B​​🇴​​🇹​ ​C​​🇷​​🇪​​🇦​​🇹​​🇪​​🇩​ ​A​​🇳​​🇩​ ​C​​🇴​​🇩​​🇪​​🇩​ ​B​​🇾​ ⦂ @WALDY_WRITINGS</b>"""
 
     LOG_TEXT_G = """#NewGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
@@ -136,7 +131,7 @@ Nᴀᴍᴇ - {}"""
 
 ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 
-ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24
+ᴇxᴀᴍᴘʟᴇ : Loki S02 or Loki S02E04 or Lucifer S03E24
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
 
@@ -151,19 +146,6 @@ Nᴀᴍᴇ - {}"""
 
     SHORTLINK_INFO = """
 <b>──────「<a href=https://t.me/> Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ </a> 」──────
-
-Yᴏᴜ ᴄᴀɴ Eᴀʀɴ Mᴏɴᴇʏ Fʀᴏᴍ Tʜɪs Bᴏᴛ Uɴᴛɪʟ ᴛʜɪs ʙᴏᴛ ɪs ᴀʟɪᴠᴇ.
-
-Wᴀɴᴛ ᴛᴏ Kɴᴏᴡ Hᴏᴡ? Fᴏʟʟᴏᴡ Tʜᴇsᴇ Sᴛᴇᴘs:-
-
-sᴛᴇᴘ 𝟷 : ʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴀᴛʟᴇᴀsᴛ ᴏɴᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴍɪɴɪᴍᴜᴍ 1𝟶𝟶 ᴍᴇᴍʙᴇʀs.
-
-sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ Aɴʏ <a href=https://Omnifly.in.net>Sʜᴏʀᴛᴇɴᴇʀ Wᴇʙsɪᴛᴇ</a>.
-
-sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/> ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ </a>Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
-
-➣ Yᴏᴜ ᴄᴀɴ ᴄᴏɴɴᴇᴄᴛ ᴀs ᴍᴀɴʏ ɢʀᴏᴜᴘ ʏᴏᴜ ʜᴀᴠᴇ.
-
 Any Doubts or Not Connecting? Contact Me </b>
 """
 
