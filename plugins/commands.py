@@ -25,10 +25,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 ​Main Channel​​ 💥', url='https://t.me/waldy_Writings'),
-            InlineKeyboardButton('🔎 ​​Request Ur Movie ​🔍', url='https://t.me/waldywritings_Bot')
+            InlineKeyboardButton('💥 Mᴀɪɴ Cʜᴀɴɴᴇʟ​​ 💥', url='https://t.me/waldy_Writings'),
+            InlineKeyboardButton('🔎 ʀᴇQᴜᴇꜱᴛ ᴜʀ ᴍᴏᴠɪᴇ ​🔍', url='https://t.me/waldywritings_Bot')
             ],[
-            InlineKeyboardButton(' 💌 🇨​​🇴​​🇳​​🇹​​🇦​​🇨​​🇹​ 💌 ', url="https://t.me/WaldyWritings_Bot")
+            InlineKeyboardButton(' 💌 ᴄᴏɴᴛᴀᴄᴛ 💌 ', url="https://t.me/WaldyWritings_Bot")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -45,10 +45,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 ​Main Channel​​ 💥', url='https://t.me/waldy_Writings'),
-            InlineKeyboardButton('🔎 ​​Request Ur Movie ​🔍', url='https://t.me/waldywritings_Bot')
+            InlineKeyboardButton('💥 Mᴀɪɴ Cʜᴀɴɴᴇʟ​​ 💥', url='https://t.me/waldy_Writings'),
+            InlineKeyboardButton('🔎 ​​ʀᴇQᴜᴇꜱᴛ ᴜʀ ᴍᴏᴠɪᴇ ​🔍', url='https://t.me/waldywritings_Bot')
             ],[
-            InlineKeyboardButton(' 💌 🇨​​🇴​​🇳​​🇹​​🇦​​🇨​​🇹​ 💌 ', url="https://t.me/WaldyWritings_Bot")
+            InlineKeyboardButton(' 💌 ᴄᴏɴᴛᴀᴄᴛ 💌 ', url="https://t.me/WaldyWritings_Bot")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAECUuhlUgO9Z_kEsTy6g7Oq14zXNw4g6AACjQwAAl5GkFaXEXtM10k7YR4E") 
@@ -94,10 +94,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 ​Main Channel​​ 💥', url='https://t.me/waldy_Writings'),
-            InlineKeyboardButton('🔎 ​​Request Ur Movie ​🔍', url='https://t.me/waldywritings_Bot')
+            InlineKeyboardButton('💥 ​Mᴀɪɴ Cʜᴀɴɴᴇʟ​​ 💥', url='https://t.me/waldy_Writings'),
+            InlineKeyboardButton('🔎 ​​ʀᴇQᴜᴇꜱᴛ ᴜʀ ᴍᴏᴠɪᴇ ​🔍', url='https://t.me/waldywritings_Bot')
             ],[
-            InlineKeyboardButton(' 💌 🇨​​🇴​​🇳​​🇹​​🇦​​🇨​​🇹​ 💌 ', url="https://t.me/WaldyWritings_Bot")
+            InlineKeyboardButton(' 💌 ᴄᴏɴᴛᴀᴄᴛ 💌 ', url="https://t.me/WaldyWritings_Bot")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
