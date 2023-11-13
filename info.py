@@ -49,9 +49,9 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "bruce1")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_filess')
 
 #other
-VERIFY = bool(environ.get('VERIFY', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://gtlink.co/')
-SHORTLINK_API = environ.get('SHORTLINK_API', '47bc190a425e7ec004fa6bd9de7e5cffc154a7e7')
+VERIFY = bool(environ.get('VERIFY', False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', '')
 SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
