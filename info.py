@@ -89,7 +89,7 @@ NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
     ON_HEROKU = True
-    APP_NAME = environ.get('APP_NAME', 'https://harshaonlinestream-e34849626b9a.herokuapp.com')
+    APP_NAME = environ.get('APP_NAME', 'https://waldywritings-ad2d02be8030.herokuapp.com')
 else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
@@ -110,9 +110,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://harshaonlinestream-e34849626b9a.herokuapp.com/".format(FQDN)
+    URL = "https://waldywritings-ad2d02be8030.herokuapp.com/".format(FQDN)
 else:
-    URL = "https://harshaonlinestream-e34849626b9a.herokuapp.com/".format(FQDN)
+    URL = "https://waldywritings-ad2d02be8030.herokuapp.com/".format(FQDN)
 
 LANGUAGES = ["telugu", "tel", "tamil", "tam" ,"hindi", "hin", "malayalam", "mal", "kannada", "kan", "english", "eng"]
 
