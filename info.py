@@ -34,7 +34,6 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '1240066432').split()]
 auth_channel = environ.get('AUTH_CHANNEL','-1001961678235')
 auth_grp = environ.get('AUTH_GROUP')
-auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 support_chat_id = environ.get('SUPPORT_CHAT_ID', 'CSAdmin69_bot')
@@ -90,13 +89,13 @@ NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
     ON_HEROKU = True
-    APP_NAME = environ.get('APP_NAME', 'https://harshaonlinewatch-fa3bf70cfd6b.herokuapp.com')
+    APP_NAME = environ.get('APP_NAME', 'https://harshaonlinestream-e34849626b9a.herokuapp.com')
 else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "https://harshaonlinewatch-fa3bf70cfd6b.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://harshaonlinewatch-fa3bf70cfd6b.herokuapp.com/".format(FQDN, PORT)
+URL = "https://harshaonlinestream-e34849626b9a.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "https://harshaonlinestream-e34849626b9a.herokuapp.com/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
@@ -111,9 +110,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://harshaonlinewatch-fa3bf70cfd6b.herokuapp.com/".format(FQDN)
+    URL = "https://harshaonlinestream-e34849626b9a.herokuapp.com/".format(FQDN)
 else:
-    URL = "https://harshaonlinewatch-fa3bf70cfd6b.herokuapp.com/".format(FQDN)
+    URL = "https://harshaonlinestream-e34849626b9a.herokuapp.com/".format(FQDN)
 
 LANGUAGES = ["malayalam", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan"]
 
