@@ -99,7 +99,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
-★ ​B​​🇴​​🇹​ ​C​​🇷​​🇪​​🇦​​🇹​​🇪​​🇩​ ​A​​🇳​​🇩​ ​C​​🇴​​🇩​​🇪​​🇩​ ​B​​🇾​ ⦂ @WALDY_WRITINGS</b>"""
+★ ​Bᴏᴛ Cʀᴇᴀᴛᴇᴅ Aɴᴅ Cᴏᴅᴇᴅ Bʏ : @WALDY_WRITINGS</b>"""
 
     LOG_TEXT_G = """#NewGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
