@@ -25,10 +25,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/+su0GfNXrSKZlYTU1'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/+3gW_5HHa25g3Zjk1')
+            InlineKeyboardButton('💥 ​M​​🇦​​🇮​​🇳​ ​C🇭​​🇦​​🇳​​🇳​​🇪​​🇱​ 💥', url='https://t.me/waldy_Writings'),
+            InlineKeyboardButton('🔎 ​R​​🇪​​🇶​​🇺​​🇪​​🇸​​🇹​ M​​🇴​​🇻​​🇮​​🇪​​🇸 🔍', url='https://t.me/waldywritings_Bot')
             ],[
-            InlineKeyboardButton(' 💌 Contact 💌 ', url="https://t.me/CSAdmin69_bot")
+            InlineKeyboardButton(' 💌 Contact 💌 ', url="https://t.me/WaldyWritings_Bot")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -45,10 +45,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/+su0GfNXrSKZlYTU1'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/+3gW_5HHa25g3Zjk1')
+            InlineKeyboardButton('💥 ​M​​🇦​​🇮​​🇳​ ​C🇭​​🇦​​🇳​​🇳​​🇪​​🇱​ 💥', url='https://t.me/waldy_Writings'),
+            InlineKeyboardButton('🔎 ​R​​🇪​​🇶​​🇺​​🇪​​🇸​​🇹​ M​​🇴​​🇻​​🇮​​🇪​​🇸 🔍', url='https://t.me/waldywritings_Bot')
             ],[
-            InlineKeyboardButton(' 💌 Contact 💌 ', url="https://t.me/CSAdmin69_bot")
+            InlineKeyboardButton(' 💌 Contact 💌 ', url="https://t.me/WaldyWritings_Bot")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAECQKVlMLuWhk3z_OYKOxM0aQFjy56HewACdQsAAp5cUVRHU1m4LfBzZx4E") 
@@ -94,10 +94,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/+su0GfNXrSKZlYTU1'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/+3gW_5HHa25g3Zjk1')
+            InlineKeyboardButton('💥 ​M​​🇦​​🇮​​🇳​ ​C🇭​​🇦​​🇳​​🇳​​🇪​​🇱​ 💥', url='https://t.me/waldy_Writings'),
+            InlineKeyboardButton('🔎 ​R​​🇪​​🇶​​🇺​​🇪​​🇸​​🇹​ M​​🇴​​🇻​​🇮​​🇪​​🇸 🔍', url='https://t.me/waldywritings_Bot')
             ],[
-            InlineKeyboardButton(' 💌 Contact 💌 ', url="https://t.me/CSAdmin69_bot")
+            InlineKeyboardButton(' 💌 Contact 💌 ', url="https://t.me/WaldyWritings_Bot")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -150,7 +150,7 @@ async def start(client, message):
                         [	
 
                             [	
-                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr	
+                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @Waldy_Writings	
                             ]	
                         ]	
                     )	
@@ -166,7 +166,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(	
                         [	
                          [ 	
-                            InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr	
+                            InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @Waldy_Writings	
                             ]	
                         ]	
                     )	
@@ -391,7 +391,7 @@ async def start(client, message):
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = '@CS_Files  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+            title = '@WALDY_WRITINGS  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
@@ -412,7 +412,7 @@ async def start(client, message):
             pass
         return await message.reply('No such file exist.')
     files = files_[0]
-    title = '@CS_Files  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
+    title = '@WALDY_WRITINGS  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
     size=get_size(files.file_size)
     f_caption=files.caption
     if CUSTOM_FILE_CAPTION:
@@ -422,7 +422,7 @@ async def start(client, message):
             logger.exception(e)
             f_caption=f_caption
     if f_caption is None:
-        f_caption = f"@CS_Files  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
+        f_caption = f"@WALDY_WRITINGS  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
         btn = [[
             InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
