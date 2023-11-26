@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '22217932'))
 API_HASH = environ.get('API_HASH', 'd722db74da63a9e46ba2dcba49c69a4c')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5872790611:AAEli03VCSClXIdeSxYRYJvI0vFxgm6586g")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6905943985:AAEOwuJrc4Sxr0d99z1KPSKYatTVJDi85io")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -28,7 +28,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/97cc4a8b2531a08fb4
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1395772318').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001798968357').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001918389293').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '1395772318').split()]
@@ -44,9 +44,9 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://brucewayne:brucewayne@cluster0.msoafcl.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "bruce1")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_filess')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Harsha:harsha@waldysearchprvt.jsyxwtb.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "waldyfilesbot")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'waldyfilesbot')
 
 #other
 VERIFY = bool(environ.get('VERIFY', False))
@@ -61,10 +61,10 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+a8YPXdSREA45MWE9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Waldy_Writings')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Waldy_Writings/178')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Waldy_Writings/376')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001878333867'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001564865764'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'WaldyWritings_Bot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
@@ -89,13 +89,13 @@ NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
     ON_HEROKU = True
-    APP_NAME = environ.get('APP_NAME', 'https://waldywritings-ad2d02be8030.herokuapp.com')
+    APP_NAME = environ.get('APP_NAME', 'https://waldypfb-9a343a467acd.herokuapp.com')
 else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "https://waldywritings-ad2d02be8030.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://waldywritings-ad2d02be8030.herokuapp.com/".format(FQDN, PORT)
+URL = "https://waldypfb-9a343a467acd.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "https://waldypfb-9a343a467acd.herokuapp.com/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
